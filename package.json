@@ -1,0 +1,19 @@
+{
+    "name": "ytpldl",
+    "version": "0.0.1",
+    "keywords": ["youtube", "download", "video", "playlist"],
+    "description": "A javascript youtube playlistdownloader for youtube playlists",
+    "engines": ["node >=0.4.0"],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/gmdayley/ytpldl.git"
+    },
+    "author": "Gabriel Dayley (https://github.com/gmdayley)",
+    "dependencies": {
+        "ytdl": "~0.1.14",
+        "color": "*",
+        "optimist": "0.2.x",
+        "googleapis" : "~0.2.4-alpha"
+    },
+    "bin" : {"ytpldl" : "./bin/ytpldl.js"}
+}
