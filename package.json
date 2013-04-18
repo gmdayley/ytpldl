@@ -1,9 +1,9 @@
 {
     "name": "ytpldl",
-    "version": "0.0.1",
+    "version": "0.0.1-alpha-3",
     "keywords": ["youtube", "download", "video", "playlist"],
     "description": "A javascript youtube playlistdownloader for youtube playlists",
-    "engines": ["node >=0.4.0"],
+    "main": "./lib/ytpldl.js",
     "repository": {
         "type": "git",
         "url": "git://github.com/gmdayley/ytpldl.git"

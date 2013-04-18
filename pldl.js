@@ -7,7 +7,7 @@ gapis.discover('youtube', 'v3')
         var request = client.youtube.playlistItems.list({
             part: 'snippet,contentDetails',
             playlistId: 'PLP6DbQBkn9ymGQh2qpk9ImLHdSH5T7yw7',
-            maxResults: 50
+            maxResults: 1
         });
 
         request
